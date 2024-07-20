@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "../aws-vpc-terraform"
+    source = "../terraform-aws-vpc01"
     project_name = var.project_name
     common_tags = var.common_tags   
     public_subnet_cidrs = var.public_subnet_cidrs
